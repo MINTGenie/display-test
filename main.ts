@@ -15,6 +15,12 @@ basic.forever(function () {
     10,
     1
     )
+    OLED12864_I2C.hline(
+    0,
+    0,
+    5,
+    1
+    )
     OLED12864_I2C.showNumber(
     5,
     2,
